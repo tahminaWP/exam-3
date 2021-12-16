@@ -1,0 +1,228 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* css */
+  nav ul li {
+    padding: 8px 11px;
+  }
+  .slider-image img {
+    padding-top: 15px;
+  }
+  .item-image.img-2 {
+    max-width: 45%;
+  }
+  .item-image {
+    padding-left:0px;
+}
+  .categorise-item {
+    height: 162px;
+  }
+  .item-name h2 {
+    font-size: 50px;
+    padding-right:0px;
+    padding-left: 21px;
+    margin-top:12px;
+  }
+  .footer-content form input[type="submit"] {
+    right:235px;
+  }
+  .owl-carousel .owl-item img {
+    width: 80%;
+    margin-left: 100px;
+}
+  
+}
+
+/* Tablet Layout: 768px.  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* css */
+}
+
+/*	Tablet and Mobile Layout   */
+@media only screen and (max-width: 991px) {
+  /* css */
+  nav ul {
+    display: none;
+  }
+  .slider-left {
+    padding-left: 40px;
+  }
+  .slider-content h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.slider-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.slider-content h3 {
+  font-size: 35px;
+}
+a.btn {
+  margin-top: 5px;
+}
+.item-image {
+  padding-left:0px;
+}
+.item-name h2 {
+  font-size: 35px;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+.item-image.img-2 {
+width: 40%;
+}
+.categorise-item.bg-3 .item-image img {
+width: 90%;
+}
+.single-price h3 {
+  font-size: 17px;
+}
+.price-ditails{
+  padding:60px 5px 40px 5px;
+}
+.footer-content form input[type="submit"]{
+  right: 171px;
+}
+.menu-bar{
+  display:block;
+}
+header{
+  position: relative;
+}
+ul.menu li {
+  display: block;
+}
+ul.menu {
+  position: absolute;
+  right:0;
+  z-index: 2;
+  background: rgba(237, 233, 233,0.9);
+  width: 100%;
+  padding: 30px 0;
+  top:-300px;
+  display:block;
+  transition:.5s;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -ms-transition:.5s;
+  -o-transition:.5s;
+}
+ul.menu.active{
+  top:70px;
+}
+
+
+
+
+}
+
+/*	Mobile Layout: 320px.   */
+@media only screen and (max-width: 767px) {
+  /* css */
+  ul.menu.active {
+    top: 123px;
+  }
+  .owl-carousel .owl-item img {
+    margin-left: 95px;
+  }
+  .slider-left {
+    top: 0;
+    transform: translateY(0);
+    margin-top: 25px;
+  }
+  .slider-image {
+    margin-top: 233px; 
+  }
+  .search-box {
+    margin-top: 20px;
+  }
+  h3.categories-title {
+    text-align: center;
+  }
+  .categorise-item {
+    margin-bottom: 20px;
+  }
+  .item-name h2 {
+    font-size: 60px;
+  }
+  .single-item {
+    justify-content: space-around;
+   }
+   .item-image {
+    padding-left: 20px;
+  }
+  .item-image.img-2 {
+    width: 33%;
+  }
+  .price h3.categories-title {
+    text-align: left;
+  }
+  .price .col-md-6 {
+    width: 50%;
+  }
+  .price-ditails {
+    margin-bottom: 35px;
+  }
+  .height-80{
+    height:0;
+  }
+  .single-price h3 {
+    font-size: 30px;
+  }
+  .single-price p {
+    font-size: 20px;
+  }
+  section.price {
+    padding-bottom: 25px;
+  }
+  .footer-content h3 {
+    font-size: 25px;
+  }
+  .footer-content p {
+    font-size: 16px;
+  }
+  .footer-content form input {
+    width: 80%;
+    padding: 11px;
+  }
+  .footer-content form input[type="submit"]{
+    position: absolute;
+    top:0;
+    right:36px;
+    padding: 5px 25px;
+}
+ 
+}
+@media only screen and (max-width: 480px) {
+  /* css */
+  .price {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  section.price {
+    padding-top: 25px; 
+  }
+  .footer-content p {
+    margin: 14px 0;
+  }
+  footer {
+    margin-top: 35px;
+    padding-bottom: 45px;
+  }
+  .footer-content{
+    padding-top:40px;
+  }
+}
+/*	Wide Mobile Layout: 480px.  */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* css */
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  /* css */
+}
