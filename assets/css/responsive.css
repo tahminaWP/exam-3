@@ -28,7 +28,10 @@
   .owl-carousel .owl-item img {
     width: 80%;
     margin-left: 100px;
-}
+  }
+  .slider-content p{
+    max-width:423px;
+  }
   
 }
 
@@ -110,6 +113,9 @@ ul.menu {
 ul.menu.active{
   top:70px;
 }
+.slider-content p{
+  max-width: 287px;
+}
 
 
 
@@ -190,11 +196,46 @@ ul.menu.active{
     top:0;
     right:36px;
     padding: 5px 25px;
-}
+  }
+  .owl-carousel .owl-item img {
+    margin-left: 29px;
+    margin-bottom: 19px;
+  }
+  .slider-area .owl-dots{
+    bottom:10px;
+  }
+  .slider-content h3 {
+    font-size: 30px;
+  }
+  a.btn {
+    margin-top: 0;
+  }
+  .slider-content p{
+    margin-bottom:0;
+  }
  
 }
 @media only screen and (max-width: 480px) {
   /* css */
+  .slider-content p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .slider-content h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .slider-content h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .slider-left {
+    margin-top: 15px;
+  }
+  .slider-left {
+    padding-left: 20px;
+  }
+  
   .price {
     padding-left: 5px;
     padding-right: 5px;
